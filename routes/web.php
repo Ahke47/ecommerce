@@ -25,7 +25,7 @@ Route::middleware(['auth','isAdmin'])->group(function(){
 
     Route::get('/dashboard',function(){
 
-        return "admin";
+        return "this is admin";
 
     });
 
